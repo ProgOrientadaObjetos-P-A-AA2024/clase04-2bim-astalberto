@@ -41,9 +41,15 @@ public class Ejecutor {
         arriendoSesiones.establecerValorAmplificacion(20); // en $
         
         listaArriendos.add(arriendoComida);
+        listaArriendos.add(arriendoComida2);
         listaArriendos.add(arriendoComercial);
         listaArriendos.add(arriendoSesiones);
         
+        // En el arraylist de tipo Arriendo se pueden almacenar todos los objetos
+        // creados que son subclases de la misma
+        // En la cual utililizamos el metodo establecerArriendoMensual para dar
+        // El valor faltante en todos los objetos almacenados en el array
+        // ademas de la respectiva impresion
         for (int i = 0; i < listaArriendos.size(); i++) {
             listaArriendos.get(i).establecerArriendoMensual(); // se llama al 
                                                             // métodos abstracto
