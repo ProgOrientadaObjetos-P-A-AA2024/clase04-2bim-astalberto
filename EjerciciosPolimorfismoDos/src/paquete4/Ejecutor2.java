@@ -97,8 +97,6 @@ public class Ejecutor2 {
             }
         }
 
-        entrada.close();
-
         System.out.println("\nInformación de todos los locales:");
         for (Arriendo arriendo : arriendos) {
             System.out.println(arriendo);
